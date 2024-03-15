@@ -1,0 +1,421 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sora:wght@100..800&display=swap");
+/* hero */
+.about-ushero {
+  background-image: url(../images/about-ushero.png);
+  height: 670px;
+  width: auto;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: -8px;
+  margin-right: -6px;
+  margin-top: -20px;
+  /* border: #61acbb 5px solid; */
+}
+/* Navigation */
+nav ul {
+  /* border: red 1px solid; */
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+nav li {
+  display: inline-block;
+  /* border: 1px rgb(0, 255, 26) solid; */
+  padding-top: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-size: x-large;
+}
+nav li:hover {
+  background-color: transparent;
+}
+
+nav a {
+  padding-right: 25px;
+  width: 20%;
+  /* border: 1px grey solid; */
+  color: #000;
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  justify-content: right;
+
+  /* border: 1px red solid; */
+}
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav a {
+  position: relative;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #e2e2e2;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
+nav a:after {
+  content: "";
+  position: absolute;
+  background-color: rgb(152, 218, 218);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+nav a:hover {
+  color: #ffffff;
+}
+nav a:hover:after {
+  width: 100%;
+}
+/* Logo */
+.resortlogo img {
+  height: 10em;
+  width: 10em;
+  display: inline;
+  position: absolute;
+  /* padding-bottom: 10px; */
+  color: white;
+  /* padding-left: 10px; */
+  /* border: 1px darkblue solid; */
+}
+/* Title on Hero */
+.title-container {
+  height: 500px;
+  margin-top: 50px;
+  margin-left: 90px;
+  /* outline: solid 1px yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  /* border: 1px darkblue solid; */
+}
+.hero-title {
+  font-size: 5em;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  /* border: 1px darkblue solid; */
+}
+.title-gradient {
+  background: linear-gradient(to right, #b2d7de 0%, #61acbb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero-subtitle {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  /* border: 1px red solid; */
+  font-size: large;
+}
+
+button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #9bd2ea;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 17px;
+  padding: 16px;
+  width: 130px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 15px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+.*/
+/* main */
+
+.about-us-main-wrapper {
+  height: 650px;
+  width: 98%;
+  margin: 1em;
+  color: grey;
+  display: flex;
+  align-items: center;
+  background-color: #c8f1f9;
+}
+.aboutus-wrapper {
+  height: 450px;
+  width: 50%;
+  margin: 1em;
+  color: grey;
+  display: block;
+  text-align: center;
+  margin-top: 100px;
+}
+main {
+  display: block;
+}
+/* input[type="text"],
+input[type="tel"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #222;
+  color: #fff;
+  outline: none;
+}
+input[type="text" i] {
+  padding-block: 1px;
+  padding-inline: 2px;
+  padding: 10px;
+} */
+
+.aboutus-wrapper img {
+  height: 200px;
+  width: auto;
+}
+.aboutus-wrapper a {
+  text-decoration: none;
+  color: #61acbb;
+}
+
+.map-container {
+  margin-top: 90px;
+  display: block;
+  /* border: solid red 1px; */
+}
+.mission-vision {
+  color: grey;
+  text-align: center;
+  padding: 10em;
+  padding-top: 5em;
+  font-size: x-large;
+  margin-top: 30px;
+}
+/* 
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+ */
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  .about-ushero {
+    background-image: none;
+    /* margin-left: 400px; */
+    /* padding: 0; */
+    /* background-color: grey; */
+    /* border: 1px darkblue solid; */
+    /* display: none;*/
+    height: inherit;
+  }
+
+  nav ul {
+    background-color: rgb(6, 144, 98);
+    width: 100%;
+    height: 400px;
+    text-align: center;
+  }
+  nav li {
+    display: inline-block;
+  }
+  nav li a {
+    /* border: 1px darkblue solid; */
+    font-size: 1em;
+  }
+  .resortlogo img {
+    /* height: 5em;
+      width: 5em;
+      display: inline;
+      position: absolute;
+      padding-bottom: 10px;
+      color: white;
+      margin-top: 5px; */
+    display: none;
+    /* border: 1px darkblue solid; */
+  }
+  .title-container {
+    display: none;
+  }
+
+  .menu-area {
+    float: none;
+    margin: 0px;
+    width: 375px;
+    height: 330px;
+    padding-top: 0px;
+  }
+  .menu-area {
+    padding: 0;
+    margin-left: 0px;
+    border: 1px darkblue solid;
+  }
+
+  .menu-area li {
+    display: block;
+    margin: 10px 0;
+  }
+  nav {
+    justify-content: center;
+  }
+  .menu-area li a {
+    color: #ffffff;
+  }
+  .custom-border {
+    display: none;
+  }
+  .img-container {
+    display: block;
+  }
+  .main-wrapper {
+    /* border: #61acbb 1px solid; */
+    width: auto;
+    padding: 0;
+  }
+  .wrapper2 {
+    width: auto;
+    border: none;
+    margin-top: 10px;
+  }
+  .intro-wrapper {
+    /* border: #61acbb 1px solid; */
+    height: 600px;
+    padding: 0;
+    width: auto;
+  }
+  .intro-wrapper2 {
+    /* border: #61acbb 1px solid; */
+    height: 600px;
+    padding: 0;
+    width: auto;
+  }
+  .intro-wrapper h2 {
+    text-align: center;
+  }
+  .intro-wrapper p {
+    text-align: justify;
+  }
+  .intro-wrapper2 h2 {
+    text-align: center;
+  }
+  .intro-wrapper2 p {
+    text-align: justify;
+  }
+  .intro2 {
+    display: none;
+  }
+  .img-container2 {
+    display: none;
+  }
+  .intro-wrapper2 {
+    height: 520px;
+    width: 70%;
+    margin-left: 0px;
+    margin-top: 200px;
+    padding: 20px;
+    padding-right: -30;
+    border: #000;
+    display: block;
+  }
+  .intro-wrapper p {
+    margin: 10px;
+    margin-top: 30px;
+  }
+  .intro-wrapper2 p {
+    margin: 10px;
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-right: -35px;
+  }
+  .mobile-intropic img {
+    display: block;
+    height: 240px;
+    width: 240px;
+    margin-left: 35px;
+    border: #333 1px solid;
+    padding: 5px;
+    box-shadow: 0 0 5px 0 #333;
+  }
+  footer {
+    display: none;
+  }
+  .about-us-main-wrapper {
+    display: block;
+  }
+  .aboutus-wrapper {
+    padding-left: 50px;
+  }
+  .map-container iframe {
+    width: auto;
+    height: auto;
+  }
+}
